@@ -1,7 +1,7 @@
 {
 	"name": "magic-ball-tracker",
 	"private": true,
-	"version": "0.0.1",
+	"version": "0.5.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -28,5 +28,11 @@
 		"svelte": "^5.0.0",
 		"tailwindcss": "^3.4.17",
 		"vite": "^6.2.6"
+	},
+	"dependencies": {
+		"apexcharts": "^4.7.0",
+		"chart.js": "^4.4.9",
+		"svelte-apexcharts": "^1.0.2",
+		"svelte-chartjs": "^3.1.5"
 	}
 }
